@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="CSS/master.css">
     <title>About</title>
 </head>
 <body class = "about_body">
+
+    <header class = "main_header">
+        <h2>Mohamed R Elsherife</h2>
+    
+
      <nav>
         <ul>
             <li>
-                <a href="index.html">Home</a>
+                <a href="index.html"  target="_blank">Home</a>
             </li>
 
             <li>
-                <a href="about.html">About</a>
+                <a href="about.html"  target="_blank">About</a>
             </li>
 
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html"  target="_blank">Contact</a>
             </li>
         </ul>
     </nav>
-
-
+    </header>
+<main class= 'main_about'>
 <article class = "first_art">
+    <div class="about-content">
 <header class = "first_head_art">
     <h2>About me</h2>
 </header>
@@ -32,6 +38,11 @@
 Passionate about programming, web design, and tech, I enjoy creating projects that put my skills into practice.</p>
 
 <p>I am a motivated Software Engineering student with hands-on experience in Python, Streamlit, and data visualization. My passion lies in building dashboards, chatbots, and data-driven applications to deliver impactful business solutions and turn complex data into clear stories.</p>
+</div>
+
+<div class="about-image">
+    <img src="images/photo_2026-04-10_17-26-50.jpg" alt="My personal photo">
+</div>
 </article>
 
 <article class = "second_art">
@@ -39,7 +50,7 @@ Passionate about programming, web design, and tech, I enjoy creating projects th
     <h2>Experience</h2>
     <p>August 2025 – September 2025</p>
 </header>
-<ul>
+<ul class="second_ul">
     <li>
         <p>Completed training on the fundamentals of Python programming.</p>
     </li>
@@ -55,26 +66,26 @@ Passionate about programming, web design, and tech, I enjoy creating projects th
 </ul>
 </article>
 
-<article class = "third_art">
-    <header class = "third_head_art">
-        <h2>
-            <h2>Skills & Abilities</h2>
-        </h2>
+<article class="third_art">
+    <header class="third_head_art">
+        <h2>Skills & Abilities</h2>
     </header>
-    <ul>
-        <li>
-        <p>Python, Java, C++</p>
-        </li>
-
-        <li>
-            <p>Pandas & NumPy</p>
-        </li>
-
-        <li>
-            <p>Streamlit & Power BI</p>
-        </li>
-    </ul>
+    <div class="skills-grid">
+        <div class="skill-item">
+            <img src="images/Python-logo-notext.svg.png" alt="Python Programming Language Logo">
+            <p>Python</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/java version.png" alt="JAVA Programming Language Logo">
+            <p>Java</p>
+        </div>
+        <div class="skill-item">
+            <img src="images/New_Power_BI_Logo.svg.png" alt="Microsoft Power Pi logo">
+            <p>Power BI</p>
+        </div>
+    </div>
 </article>
+</main>
 
 
  <footer class = "about_footer">

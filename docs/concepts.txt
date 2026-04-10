@@ -1,0 +1,29 @@
+1) What is client-side vs server-side?
+
+- Server-side processes are executed on the web server and handle data, requests, and databases.
+- Client-side processes are executed on the user's device (browser) and control the user interface and interactions.
+
+--------------------------------------------------
+
+2) What is the role of HTML, CSS, and JavaScript?
+
+HTML (HyperText Markup Language):
+- Role: Provides the basic structure and content of a webpage.
+
+CSS (Cascading Style Sheets):
+- Role: Styles and enhances the visual presentation of HTML elements.
+
+JavaScript:
+- Role: Adds interactivity and dynamic behavior to web pages.
+
+--------------------------------------------------
+
+3) Describe the folder structure and its purpose:
+
+The project folder contains subfolders:
+
+- css: contains stylesheets for designing the website, contain master.css file to style the the html pages.
+- images: stores all images used in the website.
+- docs: contains documentation files, such as this file.
+
+This structure helps keep the project organized and easy to manage.
