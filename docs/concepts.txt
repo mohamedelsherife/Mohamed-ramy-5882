@@ -2,6 +2,7 @@
 
 - Server-side processes are executed on the web server and handle data, requests, and databases.
 - Client-side processes are executed on the user's device (browser) and control the user interface and interactions.
+- Server-side processes are executed on the web server, while client-side processes are executed on the user's device. These processes have different levels of access to resources and trust, and they play different roles in the overall functioning of a web application.
 
 --------------------------------------------------
 

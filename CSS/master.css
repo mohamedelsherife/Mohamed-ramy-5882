@@ -220,5 +220,19 @@ footer {
     flex: 1; 
 }
 
+.gallery-photo{
+    width: 35%;
+    height: 35%;
+    
+}
 
+.gallery-photo :active{
+    width: 45vb;
+    height: 45vb;
+
+}
+
+.gallery_header{
+    font-size: 250%;
+}
 
