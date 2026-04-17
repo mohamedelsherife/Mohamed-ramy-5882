@@ -6,8 +6,6 @@ body {
     padding: 0;
     background-color: #0a192f;
     color: #ccd6f6;
-    
-    
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,6 +19,8 @@ body {
     background-color: #020c1b;
     padding: 15px 5%;
     box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+    position: sticky;
+    top: 0px;
 }
 
 .main_header h2 {
@@ -127,23 +127,6 @@ footer {
     border-top: 1px solid #233554;
 }
 
-@media (max-width: 768px) {
-    .main_header {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-    
-    article {
-        width: 85%;
-        padding: 20px;
-    }
-    
-    table {
-        font-size: 0.8rem; 
-    }
-}
-
 .profile-container {
     display: flex;
     align-items: center;
@@ -183,14 +166,6 @@ footer {
     transform: scale(1.2); 
 }
 
-
-@media (max-width: 768px) {
-    .profile-container {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-}
-
 .first_art {
     display: flex;
     align-items: center; 
@@ -220,6 +195,15 @@ footer {
     flex: 1; 
 }
 
+table caption{
+    text-transform: uppercase;
+}
+
+.gallery_header h2{
+    padding: 0px;
+    text-transform: uppercase;
+}
+
 .gallery-photo{
     width: 35%;
     height: 35%;
@@ -235,4 +219,22 @@ footer {
 .gallery_header{
     font-size: 250%;
 }
+
+.quiz_photo, img {
+    align-content: center;
+}
+
+.quiz-art{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+}
+
+.second_ul, li, .about_exp{
+    text-align: left;
+}
+
+
 
